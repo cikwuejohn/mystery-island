@@ -10,11 +10,16 @@ print(
 player_name = input("What is your name?: ")
 print(f"Welcome, {player_name}!")
 
+energy = 5
+current_location = "Beach"
+inventory = []
+
 choice = ""
 
 while choice != "3":
     print(
-        "\n1. Explore\n"
+        "\n========== GAME MENU ==========\n"
+        "1. Explore\n"
         "2. Check inventory\n"
         "3. Quit\n"
     )
@@ -22,10 +27,13 @@ while choice != "3":
     choice = input("Choose an option: ")
 
     if choice == "1":
-        print("Exploring the island...")
+        print(f"You are exploring the {current_location}.")
 
     elif choice == "2":
-        print("Inventory is empty!")
+        if inventory:
+            print(f"Your inventory: {inventory}")
+        else:
+            print("Your inventory is empty!")
 
     elif choice == "3":
         print("Goodbye, adventurer!")
