@@ -1,0 +1,11 @@
+print(
+"================================\n"
+"       THE LOST LIGHTHOUSE\n"
+"================================\n"
+"Welcome to Mystery Island!\n"
+"You wake up on a mysterious beach.\n"
+"The lighthouse is dark, and you need to find a way to escape.\n"
+"1. Explore\n"
+"2. Check inventory\n"
+"3. Quit\n"
+)
