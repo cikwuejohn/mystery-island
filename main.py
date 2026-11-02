@@ -9,3 +9,6 @@ print(
 "2. Check inventory\n"
 "3. Quit\n"
 )
+
+player_name = input("What is your name?: ")
+print(f"Welcome, {player_name}!")
