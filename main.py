@@ -12,3 +12,16 @@ print(
 
 player_name = input("What is your name?: ")
 print(f"Welcome, {player_name}!")
+choice = input("Choose an option: ")
+
+if choice == "1":
+    print("Exploring the island...")
+
+elif choice == "2":
+    print("Inventory is empty!")
+
+elif choice == "3":
+    print("Goodbye, adventurer!")
+
+else:
+    print("Invalid choice. Try again")
